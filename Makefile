@@ -1,4 +1,4 @@
-IMAGE := cirocosta/dind
+IMAGE := brock5555/recovery
 
 test:
 	true
