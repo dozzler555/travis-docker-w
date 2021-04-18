@@ -1,4 +1,4 @@
-IMAGE := brock5555/recovery
+IMAGE := brock5555/kernel
 
 test:
 	true
