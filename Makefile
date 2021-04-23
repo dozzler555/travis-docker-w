@@ -1,4 +1,4 @@
-IMAGE := brock5555/kernel
+IMAGE := brock5555/test
 
 test:
 	true
