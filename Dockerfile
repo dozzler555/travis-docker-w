@@ -6,7 +6,7 @@ RUN apt-get -qq update \
     && add-apt-repository ppa:deadsnakes/ppa && apt update -y && apt install python3.9 -y \
     && rm /usr/bin/python3 && ln -s /usr/bin/python3.9 /usr/bin/python3 \
     && apt-get -qq install -y --no-install-recommends \
-        git g++ gcc autoconf automake python3.9-dev python3.9-distutils python3-pip \
+        git g++ gcc autoconf automake python3.9-dev python3-setuptools python3.9-distutils python3-pip \
         m4 libtool qt4-qmake make libqt4-dev libcurl4-openssl-dev \
         libcrypto++-dev libsqlite3-dev libc-ares-dev \
         libsodium-dev libnautilus-extension-dev \
