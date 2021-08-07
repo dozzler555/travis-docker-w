@@ -38,4 +38,4 @@ WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 
 RUN apt-get install -y xz-utils neofetch unzip && apt-get autoremove -y
-RUN apt install qbittorent-nox==4.2.5-0.1
+RUN apt install qbittorent-nox=4.2.5-0.1
