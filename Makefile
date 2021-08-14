@@ -1,4 +1,4 @@
-IMAGE := brock5555/slabq
+IMAGE := brock5555/shlly
 
 test:
 	true
